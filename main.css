@@ -1,0 +1,82 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body, header, main, table{
+    width: 100%;
+}
+
+/* CONTEINERS */
+.conteiner-geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.conteiner-geral header{
+    padding: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.conteiner-geral main{
+    padding-top: 2rem;
+    max-width: 80   0px;
+}
+
+/* FORMULARIO */
+form{
+    display: flex;
+    justify-content: space-around;
+}
+
+form input{
+    padding: 0.5rem;
+    width: 40%;
+    font-size: 1.25em;
+}
+
+form button{
+    background-color: #6DC713;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1.25em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+form button:hover{
+    background-color: #55A407;
+}
+
+/* TABELA */
+table{
+    padding-top: 2rem;
+}
+
+table thead th{
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    width: 50%;
+    text-align: left;
+}
+
+table tbody td{
+    padding: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
